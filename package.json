@@ -1,0 +1,17 @@
+{
+  "name": "tuandev-cli",
+  "version": "1.0.2",
+  "description": "A CLI for creating Express projects",
+  "main": "index.js",
+  "bin": {
+    "create-app": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nguyen Van Tuan",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
