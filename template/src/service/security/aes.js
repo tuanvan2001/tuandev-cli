@@ -22,8 +22,3 @@ export const decrypt = (text) => {
     decrypted = Buffer.concat([decrypted, decipher.final()]);
     return decrypted.toString();
 };
-
-(() => {
-    const decryptedData = decrypt("d837f1ea89c38f306b848d6139dafcae:e13f64e7b5fb14bc17fd23cf69c6d5d2");
-    console.log(`Decrypted Data: ${decryptedData}`);
-})();
