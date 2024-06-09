@@ -24,12 +24,12 @@ export const verifyToken = (token) => {
     }
 };
 
-
-(function () {
-    const data = {
-        fullname: "Nguyen Van Tuan", email: "tuandev2001@gmail.com"
-    }
-    const token = generateToken(data)
-    console.log(token)
-    console.log(verifyToken(token))
-})()
+//
+// (function () {
+//     const data = {
+//         fullname: "Nguyen Van Tuan", email: "tuandev2001@gmail.com"
+//     }
+//     const token = generateToken(data)
+//     console.log(token)
+//     console.log(verifyToken(token))
+// })()
